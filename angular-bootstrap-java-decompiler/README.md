@@ -39,7 +39,7 @@ The server configurations are applied in environment files inside src/environmen
 	  CREATE_ORDER_API: '/createWebOrder'
 	};
 
-##Examples: User Interface
+## Examples: User Interface
 
 **Dashboard**
 ![Alt text](./screenshots/dashboard.JPG?raw=true "Dashboard Screen")
