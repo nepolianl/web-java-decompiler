@@ -1,8 +1,8 @@
 # Spring with JD-Core for Java Decompiler
 
-This is a spring-boot multi-module maven project with spring web module and integrated [JD-Core]() module to publish restful web services to receive and process multipart files, to provide reconstructed Java source from one or more ".class" files. It also supports processing ".jar" and ".zip" containing Java source in ".class" files. The following tasks will be taken care in the main module:
+This is a spring-boot multi-module maven project with spring web module and integrated [JD-Core](https://github.com/nepolianl/web-java-decompiler/tree/develop/spring-java-core-decompiler/jd-core) module to publish restful web services to receive and process multipart files, to provide reconstructed Java source from one or more ".class" files. It also supports processing ".jar" and ".zip" containing Java source in ".class" files. The following tasks will be taken care in the main module:
 	
-* Spring-boot Maven module project with [JD-Web](https://github.com/nepolianl/spring-java-core-decompiler) and [JD-Core](https://github.com/nepolianl/spring-java-core-decompiler)
+* Spring-boot Maven module project with [JD-Web](https://github.com/nepolianl/web-java-decompiler/tree/develop/spring-java-core-decompiler/jd-web) and [JD-Core](https://github.com/nepolianl/web-java-decompiler/tree/develop/spring-java-core-decompiler/jd-core)
 * Apache Tomcat - Embedded web server
 * Spring Web - to publish restful web services
 * Embedded H2 Database - to store reconstructed Java source code temporarily for a session
@@ -33,8 +33,8 @@ Compile using maven `mvn clean install`
 
 ## Read more
 
-* To get more understanding about [JD-Web](https://github.com/nepolianl/spring-java-core-decompiler) - a spring backend project to publish web services and to manage embedded database 
-* To get more understanding about [JD-Core](https://github.com/nepolianl/spring-java-core-decompiler) - a integrated Java decompiler core library
+* To get more understanding about [JD-Web](https://github.com/nepolianl/web-java-decompiler/tree/develop/spring-java-core-decompiler/jd-web) - a spring backend project to publish web services and to manage embedded database 
+* To get more understanding about [JD-Core](https://github.com/nepolianl/web-java-decompiler/tree/develop/spring-java-core-decompiler/jd-core) - a integrated Java decompiler core library
 
 ## Reference Documentation
 For further reference, please consider the following sections:
