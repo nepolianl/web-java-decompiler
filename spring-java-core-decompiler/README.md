@@ -12,7 +12,8 @@ This is a spring-boot multi-module maven project with spring web module and inte
 
 * Download the source code from `git clone git@github.com:nepolianl/spring-java-core-decompiler.git`
 * `cd spring-java-core-decompiler`
-* Compile using maven `mvn clean install`
+
+Compile using maven `mvn clean install`
 	
 	[INFO] ------------------------------------------------------------------------
 	[INFO] Reactor Summary for spring-java-core-decompiler 1.0:
