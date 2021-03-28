@@ -43,7 +43,8 @@ The service configurations are updated in application.properties for server, dat
 * Spring-data executes schema.sql and data.sql from src/main/resources 
 * Disable the below to get executed scheme.sql and data.sql -  spring.jpa.hibernate.ddl-auto=none
 * If a configuration set to execute entity mapping using hibernate configuration of spring.jpa.hibernate.ddl-auto=create, create-drop, update , validate, then schema.sql and data.sql files will be ignored by default
-* To view and manage H2 console
+
+To view and manage H2 console
 
 	spring.h2.console.enabled=true # Enabling H2 Console
 	spring.h2.console.path=/h2 # Custom H2 Console URL
@@ -52,21 +53,21 @@ The service configurations are updated in application.properties for server, dat
 
 * Then, the h2 database console can be accessed `http://localhost:9090/h2`
 
-#API
+## API
 
-* Request Method:
-
+Request Method:
+	
 	Method: POST
 	URL: http://localhost:9090/jd/api/upload
 	Content-type: multipart-formdata; boundary=<calculated when request sent>
-
-* Request Body (Form-data):
+	
+Request Body (Form-data):
 	
 	files -> SomeClassImpl.class
 	files -> SomeClassInterface.class
 	files -> SomeClass$List.class
 
-* Response
+Response
 
 	{
 	    "treeList": [
