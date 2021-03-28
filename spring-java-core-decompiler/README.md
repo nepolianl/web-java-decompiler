@@ -1,4 +1,4 @@
-##Spring with JD-Core for Java Decompiler
+# Spring with JD-Core for Java Decompiler
 
 This is a spring-boot multi-module maven project with spring web module and integrated [JD-Core]() module to publish restful web services to receive and process multipart files, to provide reconstructed Java source from one or more ".class" files. It also supports processing ".jar" and ".zip" containing Java source in ".class" files. The following tasks will be taken care in the main module:
 	
@@ -30,12 +30,12 @@ This is a spring-boot multi-module maven project with spring web module and inte
 * Start application `java -jar spring-java-core-decomplier.jar`
 * Access the web services using `http://localhost:9090/jd/api`
 
-##Read more
+## Read more
 
 * To get more understanding about [JD-Web](https://github.com/nepolianl/spring-java-core-decompiler) - a spring backend project to publish web services and to manage embedded database 
 * To get more understanding about [JD-Core](https://github.com/nepolianl/spring-java-core-decompiler) - a integrated Java decompiler core library
 
-### Reference Documentation
+## Reference Documentation
 For further reference, please consider the following sections:
 
 * The official [Java decompiler](https://maven.apache.org/guides/index.html) project that aims to develop tools in order to decompile and analyze Java 5 “byte code” and the later versions.
