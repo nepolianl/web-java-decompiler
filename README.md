@@ -1,4 +1,4 @@
-##Web Java Decompiler
+### Web Java Decompiler
 
 **About Background**
 
@@ -20,7 +20,7 @@ It had led me to think about developing a web application that enable responsive
 
 As the result, I have developed a initial versions of web application [front-end](http://java-decompiler.github.io/) and [back-end](http://java-decompiler.github.io/) to support responsive user interface design to upload more or more ".class" files, displays Java source code of ".class" files, and to browse the reconstructed source code for instant access to method and fields.
 
-##Getting Started
+### Getting Started
 
 The Online Java Decompiler aims to develop web applications in order to support response user interfaces, and to decompile and analyze Java "byte code" from 1.5 until 1.10 versions.
 
@@ -32,13 +32,13 @@ The scope to develop a web application using bootstrap and angular as the front-
 
 The purpose of developing web applications to use features of [Java decompiler](http://java-decompiler.github.io/) open-source project online, and to understand Java decompiler core concepts and libraries. Therefore, to develop web applications got inspired from Java decompiler open-source project for personal use.
 
-###Angular and Bootstrap
+### Angular and Bootstrap
 
 The [front-end](https://github.com/nepolianl/angular-bootstrap-java-decompiler) application that displays fancy user interface design to browse, drag and drop Java source code from one or more ".class". Displays the reconstructed Java source code in container and tabs for instant access to methods and fields using Angular concepts.
 
 To getting started with the front-end application, please follow [here](https://github.com/nepolianl/angular-bootstrap-java-decompiler).
 
-###Spring and Embedded Database
+### Spring and Embedded Database
 
 The [back-end](https://github.com/nepolianl/spring-java-core-decompiler) application developed to publish restful web services to receive and process multipart files, to provide reconstructed Java source from one or more ".class" files. It also supports processing ".jar" and ".zip" containing Java source in ".class" files.
 
