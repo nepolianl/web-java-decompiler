@@ -34,15 +34,15 @@ The purpose of developing web applications to use features of [Java decompiler](
 
 ## Angular and Bootstrap
 
-The [front-end](https://github.com/nepolianl/angular-bootstrap-java-decompiler) application that displays fancy user interface design to browse, drag and drop Java source code from one or more ".class". Displays the reconstructed Java source code in container and tabs for instant access to methods and fields using Angular concepts.
+The [front-end](https://github.com/nepolianl/web-java-decompiler/tree/develop/angular-bootstrap-java-decompiler) application that displays fancy user interface design to browse, drag and drop Java source code from one or more ".class". Displays the reconstructed Java source code in container and tabs for instant access to methods and fields using Angular concepts.
 
-To getting started with the front-end application, please follow [here](https://github.com/nepolianl/angular-bootstrap-java-decompiler).
+To getting started with the front-end application, please follow [here](https://github.com/nepolianl/web-java-decompiler/tree/develop/angular-bootstrap-java-decompiler).
 
 ## Spring and Embedded Database
 
-The [back-end](https://github.com/nepolianl/spring-java-core-decompiler) application developed to publish restful web services to receive and process multipart files, to provide reconstructed Java source from one or more ".class" files. It also supports processing ".jar" and ".zip" containing Java source in ".class" files.
+The [back-end](https://github.com/nepolianl/web-java-decompiler/tree/develop/spring-java-core-decompiler) application developed to publish restful web services to receive and process multipart files, to provide reconstructed Java source from one or more ".class" files. It also supports processing ".jar" and ".zip" containing Java source in ".class" files.
 
-To getting started with back-end application, please follow [here](https://github.com/nepolianl/spring-java-core-decompiler).
+To getting started with back-end application, please follow [here](https://github.com/nepolianl/web-java-decompiler/tree/develop/spring-java-core-decompiler).
 
 ## Reference Documentation
 For further reference, please consider the following sections:
