@@ -1,0 +1,7 @@
+<div class="container-fluid bg-secondary" style="height: 90vh;">
+  <!--Toolbar-->
+  <app-toolbar></app-toolbar>
+  <!--Default-->
+  <app-default *ngIf="!jdCallback"></app-default>
+  <app-workspace *ngIf="jdCallback"></app-workspace>
+</div>

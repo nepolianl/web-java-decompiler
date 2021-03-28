@@ -1,0 +1,67 @@
+.tree {
+    background-color: none;
+    overflow: auto;
+}
+
+ul.tree i {
+    width: 25px;
+}
+
+ul.tree, ul.tree ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+ul.tree span {
+    display: inline-flex;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul.tree ul li {
+    padding-left:25px;
+}
+
+.ic-plus {
+    background: url(../../assets/img/jd-ui/plus.png) no-repeat center center;
+    cursor: pointer;
+}
+.ic-minus {
+    background: url(../../assets/img/jd-ui/minus.png) no-repeat center center;
+    cursor: pointer;
+}
+.ic-package-open {
+    background: url(../../assets/img/jd-ui/folder_open.png) no-repeat center center;
+}
+.ic-package-close {
+    background: url(../../assets/img/jd-ui/folder.gif) no-repeat center center;
+}
+.ic-file {
+    background: url(../../assets/img/jd-ui/classf_obj.png) no-repeat center center;
+}
+.ic-class {
+    background: url(../../assets/img/jd-ui/class_obj.png) no-repeat center center;
+}
+.ic-method-public {
+    background: url(../../assets/img/jd-ui/methpub_obj.png) no-repeat center center;
+}
+.ic-method-protected {
+    background: url(../../assets/img/jd-ui/methpro_obj.png) no-repeat center center;
+}
+.ic-method-private {
+    background: url(../../assets/img/jd-ui/methpri_obj.png) no-repeat center center;
+}
+.ic-field-private {
+    background: url(../../assets/img/jd-ui/field_private_obj.png) no-repeat center center;
+}
+.ic-field-protected {
+    background: url(../../assets/img/jd-ui/field_protected_obj.png) no-repeat center center;
+}
+.ic-field-public {
+    background: url(../../assets/img/jd-ui/field_public_obj.png) no-repeat center center;
+}
+.ic-interface {
+    background: url(../../assets/img/jd-ui/int_obj.png) no-repeat center center;
+}

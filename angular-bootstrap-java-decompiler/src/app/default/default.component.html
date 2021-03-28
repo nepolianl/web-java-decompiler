@@ -1,0 +1,12 @@
+<div *ngIf="filesCount == 0" class="jumbotron text-center" >
+    <h1 class="display-4">No files are uploaded</h1>
+    <p class="lead">Open a file with Menu "File -> Open File" for decompile or Drag and Drop files from Explorer below:</p>
+    <div class="jumbotron text-center">
+        <app-filedragdrop (filesDroppedEvent)="filesDraggedEvent($event)"></app-filedragdrop>
+    </div>
+</div>
+<div *ngIf="filesCount > 0" class="jumbotron text-center" >
+    <h1 class="display-4">Uploading file(s) for decompiling</h1>
+    <p class="lead">Please wait, the decompiled files will be displayed in a while...!!</p>
+    <app-fileupload [files]="files"></app-fileupload>
+</div>

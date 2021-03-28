@@ -1,0 +1,7 @@
+<div *ngIf="files.length == 0" class="container-fluid" appFiledragdrop (fileDropped)="onFileDropped($event)" style="border: dashed 1px #007bff!important;">
+    <input type="file" #fileDropRef id="fileDropRef" multiple (change)="fileBrowseHandler($event.target.files)" class="fc-input-hide"/>
+    <img class="fc-img" src="../../assets/img/dnd/ic-upload-file.svg" alt="">
+    <h3>Drag and drop file(s) here</h3>
+    <h3>OR</h3>
+    <label for="fileDropRef" class="fc-label">Browse for file</label>
+</div>

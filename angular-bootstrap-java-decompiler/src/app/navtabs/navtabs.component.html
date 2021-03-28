@@ -1,0 +1,24 @@
+<ul class="nav nav-pills " id="pills-tab" role="tablist">
+  <ng-container *ngTemplateOutlet="jdTabsImpl; context:{ tabs: tabs }"></ng-container>
+</ul>
+
+<ng-template #jdTabsImpl let-list="tabs">
+  <li *ngFor="let tab of tabs" class="nav-item">
+    <a class="nav-link" [ngClass]="{'active' : tab.active}" (click)="toggleTab(tab)" id="{{tab.title}}-tab" data-toggle="pill" href="#{{tab.title}}" role="tab" aria-controls="{{tab.title}}" aria-selected="true">
+      {{tab.title}}
+      <button type="button" class="close" aria-label="Close" (click)="closeTab(tab)">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </a>
+  </li>
+</ng-template>
+
+<div class="tab-content container-fluid" id="pills-tabContent" style="padding-left: 0 !important;">
+  <ng-container *ngTemplateOutlet="jdEditorPanelImpl; context: {tabs: tabs}"></ng-container>
+</div>
+
+<ng-template #jdEditorPanelImpl let-list="tabs">
+  <div *ngFor="let tab of tabs" class="tab-pane" [ngClass]="{'active' : tab.active}" id="{{tab.title}}" role="tabpanel" aria-labelledby="{{tab.title}}-tab">
+    <app-editor [treeSel]="treeSel"></app-editor>
+  </div>
+</ng-template>

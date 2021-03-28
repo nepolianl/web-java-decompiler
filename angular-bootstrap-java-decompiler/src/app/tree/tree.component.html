@@ -1,0 +1,14 @@
+<ul class="tree" style="height: 74vh; overflow: auto;">
+    <ng-container *ngTemplateOutlet="jdTreeImpl; context:{ list: list }"></ng-container>
+</ul>
+  
+<ng-template #jdTreeImpl let-list="list">
+    <li *ngFor="let item of list">
+        <span (click) = "nodeClick(item)" [ngClass]="{'bg-transparent text-dark' : !item.selected, 'bg-primary text-white' : item.selected}">
+            <i *ngIf="item.children.length > 0" [ngClass]="item.expand == true ? 'ic-minus': 'ic-plus'"  (click)="toggleNode(item)"></i>
+            <i [ngClass]="getIconClass(item)"></i>{{ item.name }}</span>
+        <ul *ngIf="item.children.length > 0 && (item.expand)">
+            <ng-container *ngTemplateOutlet="jdTreeImpl; context:{ list: item.children }"></ng-container>
+        </ul>
+    </li>
+</ng-template>
