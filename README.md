@@ -2,7 +2,7 @@
 
 **About Background**
 
-The [Java Decompiler project](http://java-decompiler.github.io/) provides development and open source tools in order to compile and analyze Java 5 "byte code" and the latest version. It also provides additional bundles and plugin to compile and analyze Java "byte code":
+The [Java Decompiler project](http://java-decompiler.github.io/) provides development and open source tools in order to compile and analyze Java 5 "byte code", and to the latest version. It also provides additional bundles and plugin to compile and analyze Java "byte code":
 
 **JD-GUI** - is a stand-alone graphical user interface that enables user interface to upload, browse Java source codes of ".class" to compile and analyze. It uses embedded [JD-Core](https://github.com/java-decompiler/jd-core) library to compile and analyze Java "byte code" from .class files. You can navigate around the reconstructed source code with the JD-GUI for instant access to methods and fields.
 
@@ -12,7 +12,7 @@ JD-Core, JD-GUI are open source projects released under the GPLv3 License.
 
 **Motivation**
 
-I have been using [Java Decompiler project](http://java-decompiler.github.io/) to compile and analyze Java "byte code" from ".class" files often among other open source Java decompilers. This is useful to navigate around the workflow, to understand the used implementation that consume and produce results especially in projects which integrated or embedded third-part, common or generic libraries. Thanks to [Java Decompiler project](http://java-decompiler.github.io/). 
+I have been using [Java Decompiler project](http://java-decompiler.github.io/) to compile and analyze Java "byte code" from ".class" files often among other open source Java decompilers. This is useful to navigate around the workflow, to understand the used implementation that consume and produce results especially in projects which integrated or embedded third-party, common or generic libraries. Thanks to [Java Decompiler project](http://java-decompiler.github.io/). 
 
 While ago, I have been browsing for an online tool which can be used to perform the same operations online rather than doing it on desktop. Of-course, there are couple of tools which does this online but I have found none that provides convenient user interface to navigate and browse the reconstructed Java source from one or more ".class" files.
 
